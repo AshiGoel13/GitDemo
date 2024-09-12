@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-11T12:38:30Z" name="Suite" finished-at="2024-09-11T12:39:06Z" duration-ms="35817">
+    <groups>
+      <group name="Purchase">
+        <method signature="standAloneTest.submitOrder(java.util.HashMap)[pri:0, instance:TestingPractice.tests.standAloneTest@5f8e8a9d]" name="submitOrder" class="TestingPractice.tests.standAloneTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-09-11T12:38:30Z" name="Test2" finished-at="2024-09-11T12:38:42Z" duration-ms="12359">
+      <class name="TestingPractice.tests.errorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestingPractice.tests.errorValidation@79207381]" started-at="2024-09-11T12:38:30Z" name="launchApplication" finished-at="2024-09-11T12:38:35Z" duration-ms="5168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder()[pri:0, instance:TestingPractice.tests.errorValidation@79207381]" started-at="2024-09-11T12:38:35Z" name="submitOrder" finished-at="2024-09-11T12:38:35Z" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestingPractice.tests.errorValidation@79207381]" started-at="2024-09-11T12:38:35Z" name="closeBrowser" finished-at="2024-09-11T12:38:36Z" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestingPractice.tests.errorValidation@79207381]" started-at="2024-09-11T12:38:36Z" name="launchApplication" finished-at="2024-09-11T12:38:40Z" duration-ms="3697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder2()[pri:0, instance:TestingPractice.tests.errorValidation@79207381]" started-at="2024-09-11T12:38:40Z" name="submitOrder2" finished-at="2024-09-11T12:38:42Z" duration-ms="1951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder2 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestingPractice.tests.errorValidation@79207381]" started-at="2024-09-11T12:38:42Z" name="closeBrowser" finished-at="2024-09-11T12:38:42Z" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestingPractice.tests.errorValidation -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-09-11T12:38:30Z" name="Test" finished-at="2024-09-11T12:39:06Z" duration-ms="35817">
+      <class name="TestingPractice.tests.standAloneTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestingPractice.tests.standAloneTest@5f8e8a9d]" started-at="2024-09-11T12:38:30Z" name="launchApplication" finished-at="2024-09-11T12:38:34Z" duration-ms="4122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:TestingPractice.tests.standAloneTest@5f8e8a9d]" started-at="2024-09-11T12:38:34Z" name="submitOrder" data-provider="getData" finished-at="2024-09-11T12:38:49Z" duration-ms="15205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pwd=John@137, email=john@smith13.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestingPractice.tests.standAloneTest@5f8e8a9d]" started-at="2024-09-11T12:38:49Z" name="closeBrowser" finished-at="2024-09-11T12:38:50Z" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestingPractice.tests.standAloneTest@5f8e8a9d]" started-at="2024-09-11T12:38:50Z" name="launchApplication" finished-at="2024-09-11T12:38:56Z" duration-ms="6264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:TestingPractice.tests.standAloneTest@5f8e8a9d]" started-at="2024-09-11T12:38:56Z" name="submitOrder" data-provider="getData" finished-at="2024-09-11T12:38:59Z" duration-ms="2599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pwd=John@137, email=john@smith13.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestingPractice.tests.standAloneTest@5f8e8a9d]" started-at="2024-09-11T12:38:59Z" name="closeBrowser" finished-at="2024-09-11T12:39:00Z" duration-ms="642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestingPractice.tests.standAloneTest@5f8e8a9d]" started-at="2024-09-11T12:39:00Z" name="launchApplication" finished-at="2024-09-11T12:39:05Z" duration-ms="4990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:TestingPractice.tests.standAloneTest@5f8e8a9d]" started-at="2024-09-11T12:39:05Z" name="orderHistoryTest" finished-at="2024-09-11T12:39:05Z" depends-on-methods="TestingPractice.tests.standAloneTest.submitOrder" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestingPractice.tests.standAloneTest@5f8e8a9d]" started-at="2024-09-11T12:39:05Z" name="closeBrowser" finished-at="2024-09-11T12:39:06Z" duration-ms="642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestingPractice.tests.standAloneTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
